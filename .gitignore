@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & local secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Datasets (Excluded due to size >100MB and external licensing)
+data/*.csv
+data/*.zip
+*.csv
+*.zip
+*.tsv
+!data/.gitkeep
+
+# Trained Model Binaries (Excluded to keep repository lightweight)
+models/*.joblib
+models/*.pkl
+*.joblib
+!models/.gitkeep
+
+# Keep lightweight evaluation metrics and confusion matrix plot for repo documentation
+!models/metrics.json
+!models/confusion_matrix.png

@@ -1,0 +1,36 @@
+{
+  "accuracy": 0.982,
+  "precision": 0.982,
+  "recall": 0.982,
+  "f1_score": 0.982,
+  "per_class": {
+    "FAKE": {
+      "precision": 0.9851,
+      "recall": 0.9757,
+      "f1_score": 0.9804,
+      "support": 3580
+    },
+    "REAL": {
+      "precision": 0.9794,
+      "recall": 0.9873,
+      "f1_score": 0.9833,
+      "support": 4186
+    }
+  },
+  "confusion_matrix": [
+    [
+      3493,
+      87
+    ],
+    [
+      53,
+      4133
+    ]
+  ],
+  "labels": [
+    "FAKE",
+    "REAL"
+  ],
+  "train_size": 31060,
+  "test_size": 7766
+}
